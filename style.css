@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+a {
+    color: #fff !important;
+}
+
+.brand {
+    margin-left: 40px !important;
+}
+
+.name {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+#navbarNav {
+    margin-right: 30px !important;
+}
+
+.tagline {
+    font-size: 64px;
+    font-weight: 700;
+    color: #DF2E38;
+    margin-top: 90px;
+    max-width: 500px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    background-color: #DF2E38 !important;
+    border: none;
+    outline: none;
+}
+
+.gambar {
+    height: 450px;
+    width: 600px;
+}
+
+footer {
+    background-color: #DF2E38;
+    height: 35px;
+}
+
+label {
+    color: #DF2E38;
+}
+
+.hitung {
+    width: 100%;
+    background-color: #DF2E38;
+    color: #fff !important;
+}
+
+#hasil {
+    background-color: #DF2E38;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.hdr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.data-nama {
+    font-size: 68px;
+    color: #DF2E38;
+    margin-left: 20px;
+}
+
+hr {
+    color: #DF2E38 !important;
+    margin-left: 20px !important;
+}
+
+.data {
+    font-size: 24px;
+    color: #DF2E38;
+    margin-left: 20px;
+}
+
+.profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+/* Mengubah ukuran gambar ketika di ukuran layar 1200px */
+@media (max-width: 1200px) {
+    .gambar {
+        max-width: 300px;
+    }   
+  }
